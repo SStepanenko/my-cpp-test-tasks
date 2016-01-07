@@ -16,3 +16,7 @@
 *.suo
 *.opensdf
 *.ipch
+
+# Redundant files and folders of concrete projects
+test_tasks/company_lib/ipch/*
+test_tasks/company_lib/output/*
