@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{939882d2-6b53-4a79-bcb1-8aad7d602e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2e7d64ae-c85a-4f11-b1db-645e91cc1945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\company">
+      <UniqueIdentifier>{4c23b92d-c81d-435c-9813-1c2e7f6fd306}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="include\company\company.h">
+      <Filter>include\company</Filter>
+    </ClInclude>
+    <ClInclude Include="include\company\collaborator.h">
+      <Filter>include\company</Filter>
+    </ClInclude>
+    <ClInclude Include="include\company\employee.h">
+      <Filter>include\company</Filter>
+    </ClInclude>
+    <ClInclude Include="include\company\manager.h">
+      <Filter>include\company</Filter>
+    </ClInclude>
+    <ClInclude Include="include\company\sales.h">
+      <Filter>include\company</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\company.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collaborator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\employee.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sales.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
